@@ -1,6 +1,11 @@
 import Image from "next/image"
 
+import React from 'react'
 
+const Body = () => {
+  return (
+    
+ 
 
 <body>
     <section className ="header">
@@ -187,3 +192,7 @@ import Image from "next/image"
 
     <Image src="script.js" alt="scr" />
 </body>
+ )
+}
+
+export default Body
