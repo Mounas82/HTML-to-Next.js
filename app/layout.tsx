@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Footer from "./(components)/Footer/Footer"
+import Nav from "./(components)/Footer/Nav"
+
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,8 +19,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html>
+      <head> 
+        <Link rel="stylesheet" href="style.css"/>
+        <Link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"/>
+        <Link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      </head>
+      <body className={inter.className}>
+      <Nav/> 
+        {children}
+        
+      <Footer/>
+      </body>
     </html>
   );
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from "next/image"
 import Link from 'next/link'
+// import styles from "./page.modules.css"
 
 
 
-
-    // 
+    
 const Home1 = () => {
     return (
         
@@ -31,7 +31,7 @@ const Home1 = () => {
                     <div><Link href="/Course">Course </Link></div>
                     <div><Link href="/Blog"> Blog </Link></div>
                     <div><Link href="/About">About </Link></div>
-                    <div><Link href="/Contact"> Contact </Link></div>
+                    <div><Link href="/Contact"> </Link>Contact</div>
                 {/* </ul> */}
             </div>
             {/* <i className ="fa fa-bars" ></i> */}
@@ -40,7 +40,7 @@ const Home1 = () => {
         <div className ="text_box">
             <h2>GET READY</h2>
             <p id="headtext">TO DISCOVER CAMPUS</p>
-            <p className= "">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit consequuntur corrupti sapiente aut porro
+            <p className="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit consequuntur corrupti sapiente aut porro
                 <br/> esse blanditiis in quae perspiciatis quo.
             </p>
             <a href="#" className ="hero_btn">Visit Us To Know More</a>
@@ -190,7 +190,24 @@ const Home1 = () => {
     </section>
     {/* !-- Call To Action Section End -- */}
 
+    {/* !-- Footer Section Start -- */}
+    <section className ="footer">
+        <br/>
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima incidunt odio nam facilis, eligendi
+            Itaque fugiat cupiditate consectetur. Aliquid ab deserunt exercitationem, illum molestiae dolorem.
+        </p>
 
+        <div className ="icons">
+            <i className ="fab fa-facebook-f"></i>
+            <i className ="fab fa-instagram"></i>
+            <i className ="fab fa-twitter"></i>
+            <i className ="fab fa-linkedin"></i>
+        </div>
+        <p>Made with <i className ="fas fa-heart"></i> by <a href="index.html">Sagar Developer</a></p>
+        <p>Copyright © 2021 <link href="index.html"/>  Xplore Skill. All Rights Reserved</p>
+    </section>
+    {/* !-- Footer Section End -- */}
 
     {/* <Image src="script.js" alt="scr" width={100} height={100} /> */}
 </body>
