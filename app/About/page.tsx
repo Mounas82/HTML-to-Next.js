@@ -8,7 +8,7 @@ const About = () => {
     <section className="about-us">
         <div className="flex flex-col" >
             <div className="flex flex-col justify-center text-center">
-                <div> <h1>We are the world's largest University</h1></div>
+                <div> <h1>We are the worlds largest University</h1></div>
                 <div> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cumque in accusantium molestias maiores fuga vitae eos, ducimus officiis repudiandae voluptatem error. Laboriosam, numquam blanditiis aspernatur, nobis tempora consequatur id aliquam asperiores voluptatum iste animi voluptatem fugiat totam excepturi dolor.</p></div>
                 <div> <Link href="/Home" className="hero_btn btn"> EXPLORE NOW </Link></div>
             </div>
