@@ -5,9 +5,9 @@ import React from 'react'
 const Body = () => {
   return (
     
- 
+ <>
 
-<body>
+
     <section className ="header">
         <div>
             <a href="index.html" className ="logo">Xplore
@@ -191,7 +191,8 @@ const Body = () => {
     </section>
 
     <Image src="script.js" alt="scr" />
-</body>
+ </>
+
  )
 }
 
